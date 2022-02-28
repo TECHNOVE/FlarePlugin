@@ -19,11 +19,11 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.jetbrains:annotations:16.0.2")
+    compileOnly("org.jetbrains:annotations:22.0.0")
     compileOnly("org.spigotmc:spigot-api:1.18.1-R0.1-SNAPSHOT")
 
-    implementation("com.github.TECHNOVE:Flare:2c4a2114a0")
-    implementation("com.github.oshi:oshi-core:5.8.6")
+    implementation("com.github.TECHNOVE:Flare:34637f3f87")
+    implementation("com.github.oshi:oshi-core:6.1.2")
 }
 
 bukkit {
